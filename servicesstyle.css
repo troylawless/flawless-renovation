@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 15px auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+header {
+        background-color: rgb(41, 43, 43);
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        z-index: 10;
+    }
+
+footer {
+        background-color: rgb(41, 43, 43);
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        z-index: 10;
+    }    
+p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+ /* unvisited link */
+ a:link {
+    color: rgb(151, 151, 151);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(151, 151, 151);
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color:rgb(255, 255, 255);
+  } 
+
+li {
+        color: rgb(151, 151, 151);
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 100px;
+        text-align: center;
+    }
+
+li:hover {
+        color: rgb(255, 255, 255);
+
+      }
+h1 {
+    color: rgb(73, 73, 73);
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    max-width: 100%;
+    top: 50px;
+}
+h2 {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    padding: 40px 40px;
+    text-align: center;
+    width: 100%;
+    position: static;
+      }
+
+.welcome {
+        color: rgb(34, 33, 33);
+        box-sizing: border-box;
+        font-family: 'Oswald', sans-serif;
+        font-weight: lighter;
+        font-size: 20px;
+        padding: 40px;
+        text-align: center;
+        max-width: 100%;
+        position: relative;
+        top: 50px;
+        
+      }      
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
